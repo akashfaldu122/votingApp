@@ -1,7 +1,7 @@
 #!/bin/bash
 
 # Update the package list and install necessary dependencies
-sudo apt-get update
+sudo apt-get update 
 
 # Step 1: Install Azure CLI
 echo "Installing Azure CLI..."
