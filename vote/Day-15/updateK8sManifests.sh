@@ -7,7 +7,7 @@ REPO_URL="https://<ACCESS-TOKEN>@dev.azure.com/<AZURE-DEVOPS-ORG-NAME>/voting-ap
 
 # Clone the git repository into the /tmp directory
 git clone "$REPO_URL" /tmp/temp_repo
-
+ 
 # Navigate into the cloned repository directory
 cd /tmp/temp_repo
 
