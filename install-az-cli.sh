@@ -13,7 +13,7 @@ az login --use-device-code
 
 # Step 3: Install kubectl
 echo "Installing kubectl..."
-az aks install-cli
+az aks install-cli 
 
 # Step 4: Get AKS credentials
 # Replace <ResourceGroupName> and <AKSClusterName> with your actual resource group and AKS cluster names
