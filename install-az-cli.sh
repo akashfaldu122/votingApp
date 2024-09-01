@@ -23,7 +23,7 @@ AKS_NAME="<AKSClusterName>"             #change here only
 echo "Getting AKS credentials..."
 az aks get-credentials --resource-group $RESOURCE_GROUP --name $AKS_NAME --overwrite-existing
 
-# Step 5: Verify the connection
+# Step 5: Verify the connection  
 echo "Verifying connection to AKS..."
 kubectl get nodes
 
