@@ -3,7 +3,7 @@
 # Update the package list and install necessary dependencies  
 sudo apt-get update 
 
-# Step 1: Install Azure CLI
+# Step 1: Install Azure CLI  
 echo "Installing Azure CLI..."
 curl -sL https://aka.ms/InstallAzureCLIDeb | sudo bash
 
