@@ -1,0 +1,61 @@
+trigger:
+  paths:
+    include:
+      - vote/*
+
+resources:
+- repo: self
+
+variables:
+  dockerRegistryServiceConnection: 'a777b3f1-28d4-40f3-bbdf-0904d5c89545'
+  imageRepository: 'votingapp'
+  containerRegistry: 'gabvotingappacr.azurecr.io'
+  dockerfilePath: '$(Build.SourcesDirectory)/result/Dockerfile'
+  tag: '$(Build.BuildId)'
+
+pool:
+ name: 'votingApp-Agent'
+
+stages:
+- stage: Build
+  displayName: Build the voting App
+  jobs:
+  - job: Build
+    displayName: Build
+
+    steps:
+    - task: Docker@2
+      inputs:
+        containerRegistry: '$(dockerRegistryServiceConnection)'
+        repository: '$(imageRepository)'
+        command: 'build'
+        Dockerfile: '**/Dockerfile'
+        tags: '$(tag)'
+
+- stage: Push
+  displayName: Push the voting App
+  jobs:
+  - job: Push
+    displayName: Push
+
+    steps:
+    - task: Docker@2
+      inputs:
+        containerRegistry: '$(dockerRegistryServiceConnection)'
+        repository: '$(imageRepository)'
+        command: 'push'
+        tags: '$(tag)'
+
+- stage: Update_bash_script
+  displayName: Update Bash Script
+  jobs:
+  - job: Updating_repo_with_bash
+    displayName: Updating repo using bash script
+    steps:
+    - script: |
+        # Convert line endings to Unix format
+        dos2unix script/updateK8sManifest.sh
+
+        # Run the shell script with the appropriate arguments
+        bash scripts/updateK8sManifests.sh "vote" "$(imageRepository)" "$(tag)"
+      displayName: Run UpdateK8sManifests Script
