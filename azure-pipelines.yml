@@ -54,9 +54,9 @@ stages:
     steps:
     - script: |
         # Convert line endings to Unix format
-        dos2unix scripts/updateK8sManifests.sh
+        dos2unix script/updateK8sManifest.sh
 
         # Run the shell script with the appropriate arguments
-        bash scripts/updateK8sManifests.sh "vote" "$(imageRepository)" "$(tag)"
-      displayName: Run UpdateK8sManifests Script
+        bash script/updateK8sManifest.sh "vote" "$(imageRepository)" "$(tag)"
+      displayName: Run UpdateK8sManifest Script
 
