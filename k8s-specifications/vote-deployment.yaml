@@ -21,4 +21,4 @@ spec:
         - containerPort: 80
           name: http
       imagePullSecrets:
-      - name: gab-secret
+      - name: gab-secrets
