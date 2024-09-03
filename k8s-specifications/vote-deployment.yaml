@@ -15,7 +15,7 @@ spec:
         app: vote
     spec:
       containers:
-      - image: 00000000000000
+      - image: gabvotingappacr.azurecr.io/votingapp:91
         name: vote
         ports:
         - containerPort: 80
