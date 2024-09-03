@@ -7,14 +7,14 @@ resources:
 - repo: self
 
 variables:
-  dockerRegistryServiceConnection: 'a777b3f1-28d4-40f3-bbdf-0904d5c89545'
+  dockerRegistryServiceConnection: 'ad3eca0a-4219-4a32-9df0-29fd9ba340b8'
   imageRepository: 'votingapp'
   containerRegistry: 'gabvotingappacr.azurecr.io'
   dockerfilePath: '$(Build.SourcesDirectory)/result/Dockerfile'
   tag: '$(Build.BuildId)'
 
 pool:
- name: 'votingApp-Agent'
+ name: 'voting-agent-app'
 
 stages:
 - stage: Build
