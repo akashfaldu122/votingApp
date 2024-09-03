@@ -57,5 +57,5 @@ stages:
         dos2unix script/updateK8sManifest.sh
 
         # Run the shell script with the appropriate arguments
-        bash scripts/updateK8sManifests.sh "vote" "$(imageRepository)" "$(tag)"
-      displayName: Run UpdateK8sManifests Script
+        bash updateK8sManifest.sh "vote" "$(imageRepository)" "$(tag)"
+      displayName: Run UpdateK8sManifest Script
