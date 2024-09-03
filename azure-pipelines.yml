@@ -52,10 +52,8 @@ stages:
   - job: Updating_repo_with_bash
     displayName: Updating repo using bash script
     steps:
-    - script: |
-        # Convert line endings to Unix format
-        dos2unix script/updateK8sManifest.sh
+    - task: ShellScript@2
+      inputs:
+        scriptPath: 'script/updateK8sManifest.sh'
+        args: 'vote $imageRepository $tag'
 
-        # Run the shell script with the appropriate arguments
-        bash script/updateK8sManifest.sh "vote" "$(imageRepository)" "$(tag)"
-      displayName: Run UpdateK8sManifest Script
