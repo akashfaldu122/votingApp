@@ -17,3 +17,5 @@ spec:
       containers:
       - image: gabvotingappacr.azurecr.io/votingapp:95
         name: worker
+      imagePullSecrets:
+      - name: gab-secrets
