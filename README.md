@@ -2,7 +2,7 @@
 
 ---
 
-## CI/CD Project: [Deploy a 3-tier Microservice Voting App using ArgoCD and Azure DevOps Pipeline]
+## CI/CD Project: Deploy a 3-tier Microservice Voting App using ArgoCD and Azure DevOps Pipeline
 ![image](https://github.com/user-attachments/assets/99e3f91e-44fc-48b2-b06c-6dc90d37e0ee)
 
 ### Project Overview
@@ -82,8 +82,9 @@ The **Voting App** significantly improved **user engagement and system reliabili
    - Ensured that the CI/CD pipeline and deployments were functioning as expected.
 
 ### Demo and Repository
-- **Live Demo:** [https://medium.com/@ougabriel/ci-cd-project-deploy-a-3-tier-microservice-voting-app-using-argocd-and-azure-devops-pipeline-1b3fb9d19138]
-- **GitHub Repository:** [Link to the GitHub repository with the project’s code and documentation]
+- **Live Demo:** [PROJECT-BLOG-LINK](https://medium.com/@ougabriel/ci-cd-project-deploy-a-3-tier-microservice-voting-app-using-argocd-and-azure-devops-pipeline-1b3fb9d19138)
+ 
+- **GitHub Repository:** [Link to the GitHub repository](https://github.com/ougabriel/votingApp/tree/main)
 
 ### Conclusion
 This project showcases my expertise in **cloud infrastructure, CI/CD practices, and containerization**, and I’m eager to replicate this experience anytime. If you have any questions or would like more details, feel free to reach out.
