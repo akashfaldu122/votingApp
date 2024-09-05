@@ -17,6 +17,7 @@ The project is a **3-tier microservice application designed for real-time voting
 - **Orchestration:** Kubernetes (AKS)
 - **CI/CD Tools:** Azure DevOps, ArgoCD
 - **Infrastructure:** Terraform, Azure
+- **Automation:** Bash
 
 ### Key Features
 - **Automated Deployments:** Utilized ArgoCD to manage and automate deployments to Kubernetes, ensuring seamless updates and rollbacks.
@@ -31,6 +32,7 @@ As the lead **DevOps Engineer**, my responsibilities included:
 - **Infrastructure Management:** Utilized Terraform to define and provision infrastructure, ensuring it was scalable and reliable.
 - **Containerization:** Created Docker images for the application services and configured Kubernetes for container orchestration.
 - **Monitoring & Optimization:** Implemented monitoring solutions to track application performance and made optimizations based on the data.
+- **Automation:** Developed a bash script that helped to automated newly update images to the repo which is then updated to the Kubernetes cluster with the help of ArgoCD.
 
 ### Achievements
 - **Successful Deployment:** Achieved zero-downtime deployments with automated rollbacks in case of failures.
