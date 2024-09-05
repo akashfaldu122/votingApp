@@ -82,11 +82,11 @@ The **Voting App** significantly improved **user engagement and system reliabili
    - Ensured that the CI/CD pipeline and deployments were functioning as expected.
 
 ### Demo and Repository
-- **Live Demo:** [Link to a live demo or application]
+- **Live Demo:** [https://medium.com/@ougabriel/ci-cd-project-deploy-a-3-tier-microservice-voting-app-using-argocd-and-azure-devops-pipeline-1b3fb9d19138]
 - **GitHub Repository:** [Link to the GitHub repository with the project’s code and documentation]
 
 ### Conclusion
-This project showcases my expertise in **cloud infrastructure, CI/CD practices, and containerization**, and I’m eager to bring this experience to [Company/Position you’re applying for]. If you have any questions or would like more details, feel free to reach out.
+This project showcases my expertise in **cloud infrastructure, CI/CD practices, and containerization**, and I’m eager to replicate this experience anytime. If you have any questions or would like more details, feel free to reach out.
 
 ---
 
