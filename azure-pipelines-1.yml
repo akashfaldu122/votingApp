@@ -17,8 +17,8 @@ pool:
  name: 'voting-agent-app'
 
 stages:
-- stage: Build Worker
-  displayName: Build the voting App
+- stage: Build
+  displayName: Build the worker voting App
   jobs:
   - job: Build
     displayName: Build
