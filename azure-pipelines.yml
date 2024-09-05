@@ -10,7 +10,7 @@ variables:
   dockerRegistryServiceConnection: 'ad3eca0a-4219-4a32-9df0-29fd9ba340b8'
   imageRepository: 'votingapp'
   containerRegistry: 'gabvotingappacr.azurecr.io'
-  dockerfilePath: '$(Build.SourcesDirectory)/result/Dockerfile'
+  dockerfilePath: '$(Build.SourcesDirectory)/vote/Dockerfile'
   tag: '$(Build.BuildId)'
 
 pool:
