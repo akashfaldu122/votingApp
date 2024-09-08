@@ -88,6 +88,8 @@ The **Voting App** significantly improved **user engagement and system reliabili
  
 - **GitHub Repository:** [Link to the GitHub repository](https://github.com/ougabriel/votingApp/tree/main)
 
+**Developed By** Gabriel Okom
+
 ### Conclusion
 This project showcases my expertise in **cloud infrastructure, CI/CD practices, and containerization**, and I’m eager to replicate this experience anytime. If you have any questions or would like more details, feel free to reach out.
 
