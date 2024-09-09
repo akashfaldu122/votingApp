@@ -14,7 +14,7 @@ The project is a **3-tier microservice application designed for real-time voting
 - **Backend:** Node.js/Express (Vote Processor Backend)
 - **Database:** Redis (temporary votes storage), PostgreSQL (final vote count)
 - **Containerization:** Docker
-- **Orchestration:** Kubernetes (AKS)
+- **Orchestration:** Kubernetes (AKS) 
 - **CI/CD Tools:** Azure DevOps, ArgoCD
 - **Infrastructure:** Terraform, Azure
 - **Automation:** Bash
