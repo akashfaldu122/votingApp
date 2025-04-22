@@ -15,7 +15,7 @@ spec:
         app: result
     spec:
       containers:
-      - image: gabvotingappacr.azurecr.io/votingapp:96
+      - image: akashconreg.azurecr.io/votingapp/result:306
         name: result
         ports:
         - containerPort: 80
