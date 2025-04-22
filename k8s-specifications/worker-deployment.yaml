@@ -15,7 +15,7 @@ spec:
         app: worker
     spec:
       containers:
-      - image: gabvotingappacr.azurecr.io/votingapp:95
+      - image: akashconreg.azurecr.io/votingapp/worker:305
         name: worker
       imagePullSecrets:
       - name: gab-secrets
